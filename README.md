@@ -12,11 +12,11 @@ This is a Kotlin/Compose Multiplatform project that demonstrates the use of **Ge
 
 Add your screenshots here to showcase the app running on iOS and Android. For example:
 
-- **Android**:
-  ![Android Screenshot](https://github.com/SeanChinJunKai/VertexSample/assets/Android.png)
+### Android
+  ![Android Screenshot](https://raw.githubusercontent.com/SeanChinJunKai/VertexSample/main/assets/Android.png)
 
-- **iOS**:
-  ![iOS Screenshot](https://github.com/SeanChinJunKai/VertexSample/assets/iOS.png)
+### iOS
+  ![iOS Screenshot](https://raw.githubusercontent.com/SeanChinJunKai/VertexSample/main/assets/iOS.png)
 
 ---
 
