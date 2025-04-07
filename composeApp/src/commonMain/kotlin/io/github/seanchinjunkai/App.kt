@@ -71,5 +71,5 @@ fun App() {
 suspend fun generateContent(api: GenerativeModel, prompt: String): String {
     println("prompt = $prompt")
     val result = api.generateContent(prompt)
-    return result.response?.candidates?.get(0)?.content?.parts?.get(0)?.text ?: "NO RESULTS"
+    return result.response?.text ?: "NO RESULTS"
 }
