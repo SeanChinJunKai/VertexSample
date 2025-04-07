@@ -1,14 +1,24 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# Kotlin/Compose Multiplatform Sample for Gemini and Vertex AI
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This is a Kotlin/Compose Multiplatform project that demonstrates the use of **Gemini via Vertex AI**, showcasing its capabilities to build seamless cross-platform applications. This sample is designed to run on both **iOS** and **Android** platforms.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Features
+- **Compose Multiplatform**: Uses Jetpack Compose for building shared UI across Android and iOS platforms.
+- **vertexgsoc Library**: This project utilizes the [vertexgsoc](https://github.com/SeanChinJunKai/vertexgsoc) library to integrate Gemini via VertexAI effortlessly.
 
+---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Screenshots
+
+Add your screenshots here to showcase the app running on iOS and Android. For example:
+
+- **Android**:
+  ![Android Screenshot](https://github.com/SeanChinJunKai/VertexSample/assets/Android.png)
+
+- **iOS**:
+  ![iOS Screenshot](https://github.com/SeanChinJunKai/VertexSample/assets/iOS.png)
+
+---
+
+## Learn More
+- [vertexgsoc Library](https://github.com/SeanChinJunKai/vertexgsoc)

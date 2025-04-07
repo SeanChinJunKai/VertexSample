@@ -25,7 +25,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Composable
 @Preview
 fun App() {
-    val api = remember { GenerativeModel(key = "API_KEY", model = "gemini-1.5-flash-002", RequestOptions(projectId = "gemini-kmp"))}
+    val api = remember { GenerativeModel(key = "ya29.a0AZYkNZhT-WAut3BzJW_Zcl_lwWh4jsVaG0GXs1g_r_4eCPJ-r8VCVknyhNbeJ7OseXOtLw1taW3aNZJB20VZ3fbusfQAK3KSdyxVcU6AzVrCepgHtu7u4zf1AA3XxdgBzoVH-0TcGtr8A6ZrN7suhb2IKEM0HBC0dBgtLw2WBro0Wu0aCgYKAfsSARESFQHGX2MiYvDtVXGQ_ZGaRC28oDSGSA0182", model = "gemini-1.5-flash-002", RequestOptions(projectId = "gemini-kmp"))}
 
     val coroutineScope = rememberCoroutineScope()
     var prompt by remember { mutableStateOf("Summarize the benefits of Kotlin Multiplatform") }
